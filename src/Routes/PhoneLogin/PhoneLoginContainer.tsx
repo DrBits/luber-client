@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 import { RouteComponentProps } from 'react-router-dom';
 import PhoneLoginPresenter from './PhoneLoginPresenter';
 import { Mutation } from 'react-apollo';
-import { PHONE_SIGN_IN } from './PhoneQueries';
+import { PHONE_SIGN_IN } from './PhoneQueries.queries';
 
 interface IState {
   countryCode: string;
